@@ -5,7 +5,7 @@ import Header from './component/Header';
 import Home from './component/Home';
 // import ProsessAndServices from './component/ProsessAndServices';
 // import TrendingProducts from './component/TrendingProducts';
-import Message from './component/Message';
+// import Message from './component/Message';
 import Footer from './component/Footer';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AboutUs from './component/AboutUs';

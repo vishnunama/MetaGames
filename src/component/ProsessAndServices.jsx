@@ -17,7 +17,7 @@ function ProsessAndServices() {
           <div className="d-border">
             <div className="steps">
               <div className="process-icon">
-                <img src="/Assets/s1.png" alt className="Process-img" />
+                <img src="./assets/img/process/s1.png" alt className="Process-img" />
               </div>
               <div className="step-no">
                 <div className="step-1">

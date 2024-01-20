@@ -1682,3 +1682,7 @@
             padding-right: 4rem !important;
             padding-left: 4rem !important;
         }
+
+                .gradientBackground {
+                    background: linear-gradient(90deg, rgba(46, 15, 134, 1) 0%, rgba(209, 1, 62, 1) 100%);
+                }

@@ -496,7 +496,8 @@ header.small .desk-menu .menu-container .menu>li.menu-item-has-children>a::after
 }
 
 header.small .desk-menu .logo-adn {
-    margin-top: 8px;
+    margin: 8px;
+    
 }
 
 header.small .desk-menu .logo-adn a {
@@ -520,8 +521,9 @@ header.small .desk-menu .box-menu ul li a {
 
 @media (max-width: 991px) {
     header {
-        height: 60px;
+        height: 80px;
     }
+    
 
     header .hamburger-menu {
         -webkit-transition: all 0.3s ease;
@@ -852,6 +854,7 @@ header.small .desk-menu .box-menu ul li a {
     }
 }
 
+
 @media (max-width: 767px) {
     header .desk-menu .menu-container .menu li a {
         padding: 8px 12px;
@@ -893,6 +896,7 @@ header.small .desk-menu .box-menu ul li a {
         top: 22px;
     }
 }
+
 
 @media (max-width: 481px) {
     header .desk-menu .logo-adn a {

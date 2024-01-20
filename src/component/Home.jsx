@@ -6,6 +6,9 @@ import ProsessAndServices from './ProsessAndServices';
 import TrendingProducts from './TrendingProducts';
 import AboutNews from './AboutNews';
 import Message from './Message';
+import { IonIcon } from '@ionic/react';
+import { rocketOutline } from 'ionicons/icons';
+
 import { useNavigate } from 'react-router-dom';
 
 function Home() {
@@ -29,7 +32,7 @@ function Home() {
             {/* <a class="me-lg-3 mb-4 mb-lg-0 " href="#! "><img class="app-badge " src="assets/img/google-play-badge.svg " alt="... " /></a> */}
             {/* <a href="#! "><img class="app-badge " src="assets/img/app-store-badge.svg " alt="... " /></a> */}
             {/* <a href="#!" class="btn btn-outline-primary text-primary1 bg-primary1 fade-in one">Explore games</a> */}
-            <a onClick={()=>navigate("/Aboutus")} style={{cursor:"pointer"}} className="color-btn btn-hover gap-2">Explore games <ion-icon name="rocket-outline" className="fs-5 rocket" /></a>
+            <a onClick={()=>navigate("/Aboutus")} style={{cursor:"pointer"}} className="color-btn btn-hover gap-2">Explore games <IonIcon icon={rocketOutline} className="fs-5 rocket" /></a>
           </div>
         </div>
       </div>

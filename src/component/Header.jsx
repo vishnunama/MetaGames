@@ -1,6 +1,10 @@
 import React from 'react'
 import "./Header.css"
+
+// import SwipeableTemporaryDrawer from "./resnav";
+
 import { useNavigate } from 'react-router-dom';
+import SwipeableTemporaryDrawer from './resnav';
 
 function Header() {
     const navigate = useNavigate();
@@ -53,7 +57,7 @@ function Header() {
               </div>
             </div>
             <div className="hamburger-menu">
-              <div className="bar" />
+              <SwipeableTemporaryDrawer/>
             </div>
           </nav>
         </div>
