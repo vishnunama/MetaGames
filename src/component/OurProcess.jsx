@@ -29,20 +29,18 @@ function OurProcess() {
     <div className="row">
       <div className="cta-content col-lg-6 d-flex align-items-center justify-content-center overflow-hidden">
         <div className="container px-5 row gx-5 py-5 align-items-center">
-          <h1 className="display-5 pb-3 glow-text lh-1 mb-3 text-white fw-bold g-text text-center">Strategy
+          <h1 className="display-5 pb-3 glow-text lh-1 mb-3 text-white fw-bold g-text text-center">About MetaBlock
           </h1>
           {/* <h2 class="text-white display-1 lh-1 mb-4 ">
               WE MAKE DREAMS <br> COME TO LIFE
           </h2> */}
           <p className="lead fw-normal text-white mb-4 text-center">
-            Metakops use strategy for game development in this process firstly we define our target audience, we set our goals and objective, choose the right platform, develop a comprehensive game design document, implement an agile development process and invest
-            in marketing and promotion by using this strategy and steps we develop games and applications and provide our customers best results.
-          </p>
+We're a tech company based in Jaipur, Rajasthan, and we've been around for three awesome years. We do a bunch of cool things like making websites, working with blockchain, creating software, and developing games. Living in Jaipur, a city full of culture, inspires us every day. We use that inspiration to make creative and top-notch stuff, from dynamic websites to innovative blockchain solutions, reliable software, and fun games.          </p>
           {/* <a href="#!" class="btn btn-outline-primary text-primary1 bg-transparent">Explore games</a> */}
         </div>
       </div>
       <div className="col-lg-6 ">
-        <img className="cta-content-img" src="https://www.metakops.com/assets/img/our-process/1.png" alt />
+        <img className="cta-content-img" src="/assets/img/deskstop_wallet-removebg-preview.png" alt />
       </div>
     </div>
   </section>
@@ -53,19 +51,19 @@ function OurProcess() {
     {/* <img class="bg-img" src="./assets/img/h2-img-3.png" alt=""> */}
     <div className="row">
       <div className="col-lg-6 ">
-        <img className="cta-content-img" src="https://www.metakops.com/assets/img/our-process/2.png" alt />
+        <img sty className="cta-content-img" src="/assets/img/_e9ef92d1-2068-4f1e-92e7-493f6fb7beae.jpg" alt />
       </div>
       <div className="cta-content col-lg-6 d-flex align-items-center justify-content-center overflow-hidden">
         <div className="container px-5 row gx-5 py-5 align-items-center">
-          <h1 className="display-5 pb-3 glow-text lh-1 mb-3 text-white fw-bold g-text text-center">Analysis Ans Planning
+          <h1 className="display-5 pb-3 glow-text lh-1 mb-3 text-white fw-bold g-text text-center">Trusted Technology Partner
           </h1>
           {/* <h2 class="text-white display-1 lh-1 mb-4 ">
               WE MAKE DREAMS <br> COME TO LIFE
           </h2> */}
           <p className="lead fw-normal text-white mb-4 text-center">
-            We do Analysis and planning which are critical stages in game development that help ensure that the game is developed efficiently and effectively. In this process we conduct market research, identify our game's unique selling points, create our project
-            plan, determine the development team, Establish a budget, choose the right game engine, develop a prototype, and use these steps for analysis and planning for development and satisfy our customer’s needs.
-          </p>
+At MetaBlock Technologies, we take pride in being your reliable IT partner. Specializing in web and blockchain development services, we have successfully delivered over 500 projects to satisfied clients. Our commitment to excellence, innovative solutions, and on-time delivery has earned us the trust of our users.
+
+What sets us apart is our dedication to understanding your unique needs and crafting tailored solutions that go beyond expectations. With a proven track record of successful project deliveries, we have become a trusted name in the industry.          </p>
           {/* <a href="#!" class="btn btn-outline-primary text-primary1 bg-transparent">Explore games</a> */}
         </div>
       </div>
@@ -79,21 +77,20 @@ function OurProcess() {
     <div className="row">
       <div className="cta-content col-lg-6 d-flex align-items-center justify-content-center overflow-hidden">
         <div className="container px-5 row gx-5 py-5 align-items-center">
-          <h1 className="display-5 pb-3 glow-text lh-1 mb-3 text-white fw-bold g-text text-center">UI/UX &amp; Deveopment
+          <h1 className="display-5 pb-3 glow-text lh-1 mb-3 text-white fw-bold g-text text-center">Blockchain &amp; WebDeveopment
           </h1>
           {/* <h2 class="text-white display-1 lh-1 mb-4 ">
               WE MAKE DREAMS <br> COME TO LIFE
           </h2> */}
           <p className="lead fw-normal text-white mb-4 text-center">
-            Metakops use UI AND UX design to develop websites , this helps to interact with people more.. We use both UI and UX design for development and it is the critical component of the design process, and they work together to create a positive user experience.
-            We provide users the best experience. We use the process of developing games which run on smartphones and other devices. The process involves designing, coding, testing, and deploying the application. We use all the processes and
-            create apps according to the customers.
-          </p>
+Discover the power of new technology with our special services for making websites and using blockchain. At MetaBlock Technogogies, we're experts in creating awesome websites that people love and making sure your business transactions are safe and clear with blockchain.
+
+If you need a great website or want to explore the cool things blockchain can do for your business, we've got it all covered. We're here to make sure your projects not only get done but are also amazing and beyond what you imagined.      </p>
           {/* <a href="#!" class="btn btn-outline-primary text-primary1 bg-transparent">Explore games</a> */}
         </div>
       </div>
       <div className="col-lg-6 ">
-        <img className="cta-content-img" src="https://www.metakops.com/assets/img/our-process/3.png" alt />
+        <img className="cta-content-img" src="/assets/img/Blue Minimalist Certificate ( Landscape ).png" alt />
       </div>
     </div>
   </section>
@@ -104,19 +101,26 @@ function OurProcess() {
     {/* <img class="bg-img" src="./assets/img/h2-img-3.png" alt=""> */}
     <div className="row">
       <div className="col-lg-6 ">
-        <img className="cta-content-img" src="https://www.metakops.com/assets/img/our-process/4.png" alt />
+        <img className="cta-content-img" src="/assets/img/_292f6efc-76cc-422c-8634-a12536620e0e.jpg" alt />
       </div>
       <div className="cta-content col-lg-6 d-flex align-items-center justify-content-center overflow-hidden">
         <div className="container px-5 row gx-5 py-5 align-items-center">
-          <h1 className="display-5 pb-3 glow-text lh-1 mb-3 text-white fw-bold g-text text-center">Testing
+          <h1 className="display-5 pb-3 glow-text lh-1 mb-3 text-white fw-bold g-text text-center">Our In-House Team
+
+
+
+
+
+
           </h1>
           {/* <h2 class="text-white display-1 lh-1 mb-4 ">
           WE MAKE DREAMS <br> COME TO LIFE
       </h2> */}
           <p className="lead fw-normal text-white mb-4 text-center">
-            After all the process from strategy to app development, we do final testing of software and applications.Testing is a critical aspect of software development that involves evaluating the functionality, performance, and reliability of an application. The
-            primary goal of testing is to ensure that the software meets the requirements and expectations of the users, is bug-free, and operates efficiently.
-          </p>
+           We're not just a tech company; we're a community of passionate individuals working together under one roof. What sets us apart? We have our very own in-house teams for marketing, development, and testing.
+
+Our Marketing Team is the creative force behind spreading the word about our innovative solutions. They ensure our ideas reach the right audience and showcase the uniqueness of our work.
+         </p>
           {/* <a href="#!" class="btn btn-outline-primary text-primary1 bg-transparent">Explore games</a> */}
         </div>
       </div>
@@ -142,7 +146,7 @@ function OurProcess() {
         </div>
       </div>
       <div className="col-lg-6 ">
-        <img className="cta-content-img" src="https://www.metakops.com/assets/img/our-process/3.png" alt />
+        <img className="cta-content-img" src="/assets/img/Blue Minimalist Certificate ( Landscape ).png" alt />
       </div>
     </div>
   </section>

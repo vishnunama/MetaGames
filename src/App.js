@@ -13,6 +13,10 @@ import OurProcess from './component/OurProcess';
 import Portfolio from './component/Portfolio';
 import ContactUs from './component/ContactUs';
 import { ScrollToScroll } from './component/WindowToScroll';
+import { Avatar } from '@mui/material';
+// import Login from './component/Login';
+// import Logout from './component/Logout';
+// import LoginForm from './component/LoginForm';
 
 
 function App() {
@@ -27,8 +31,13 @@ function App() {
          <Route path="/" element={<Home />} />
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path='/OurProcess'element={<OurProcess/>}/>
-        <Route path='/Portfolio' element={<Portfolio/>}/>
+        {/* <Route path='/Portfolio' element={<Portfolio/>}/> */}
         <Route path='/ContactUs' element={<ContactUs/>}/>
+        {/* <Route path='/Login' element={<Login/>}/>
+        <Route path='/Logout' element={<Logout/>}/> */}
+        {/* <Route path= "/LoginForm" element={<LoginForm/>}/> */}
+
+
        
       </Routes>
       <Footer/>

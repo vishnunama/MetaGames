@@ -10,14 +10,25 @@ import { IonIcon } from '@ionic/react';
 import { rocketOutline } from 'ionicons/icons';
 
 import { useNavigate } from 'react-router-dom';
+import Carousel from './Carousel';
 
 function Home() {
    const navigate = useNavigate();
    return (
     <>
+
       <section className="masthead d-flex ">
   {/* background image */}
-  <img className="bg-img sm-h100vh" src="./assets/img/metakops-game-development-company-banner.png" alt />
+  <div>
+
+  </div>
+  <div style={{paddingTop:"50px",marginBottom:"40px"}} className="bg-img sm-h110vh">
+
+<Carousel />
+  </div>
+
+  {/* <img className="bg-img sm-h100vh" src="./assets/img/WhatsApp Image 2024-02-02 at 14.07.18_ef1ff58a.jpg" alt />  */}
+
   {/* <div class="bg-filter"></div> */}
   <div className="container px-5 d-flex w-100 overflow-hidden">
     <div className="row gx-5 align-items-center ">
@@ -25,14 +36,15 @@ function Home() {
         {/* Mashead text and app badges*/}
         <div className="">
           <h1 className="display-4 pb-3 glow-text lh-1 mb-3 text-start fw-bold fade-in one g-text ">
-            The Next Revolution in Gaming
+            The Next Revolution in IT
+
           </h1>
-          <p className="lead fw-normal mb-4 fade-in one text-white">Relive the passion of gaming by exploring new adventures along with its development.</p>
+          <p className="lead fw-normal mb-4 fade-in one text-white">We are focused on making India young and economically strong by promoting business, education and financial freedom.</p>
           <div className="d-flex flex-column flex-lg-row align-items-center fade-in one w-fit">
             {/* <a class="me-lg-3 mb-4 mb-lg-0 " href="#! "><img class="app-badge " src="assets/img/google-play-badge.svg " alt="... " /></a> */}
             {/* <a href="#! "><img class="app-badge " src="assets/img/app-store-badge.svg " alt="... " /></a> */}
             {/* <a href="#!" class="btn btn-outline-primary text-primary1 bg-primary1 fade-in one">Explore games</a> */}
-            <a onClick={()=>navigate("/Aboutus")} style={{cursor:"pointer"}} className="color-btn btn-hover gap-2">Explore games <IonIcon icon={rocketOutline} className="fs-5 rocket" /></a>
+            <a onClick={()=>navigate("/Aboutus")} style={{cursor:"pointer"}} className="color-btn btn-hover gap-2">Know about <IonIcon icon={rocketOutline} className="fs-5 rocket" /></a>
           </div>
         </div>
       </div>
@@ -53,18 +65,18 @@ function Home() {
     <div className="row align-items-center">
       <div className="col-lg-5">
         <div className="row position-relative gy-4">
-          <img className="w-100" src="./assets/img/About-image.png" alt />
+          <img className="w-100" src="./assets/img/Create a real photo in 169 aspect ratio illustrati.jpg" alt />
         </div>
       </div>
       <div className="col-lg-7 mt-5 mt-lg-0">
         <div className="section-title ps-0 ps-lg-5">
           <p className="fs-4 fw-semibold mb-2 g-text lg-text-center">
-            We Provide Best tech solutions for your business</p>
-          <h3 className="h1 display-4 mb-3 fw-bold lg-text-center">Mobile Game &amp; App Development Company in udaipur
+             Blockchain Development services </p>
+          <h3 className="h1 display-4 mb-3 fw-bold lg-text-center">Web Development &amp; Blockchain  Development Company
           </h3>
           <div className="content">
-            <p className="fs-5  mb-3">Trusted technical partner for more than 30+ companies from startups to enterprise leaders.</p>
-            <p className="fs-5  mb-3">At Metakops, our team of designers and game developers bring expertise above and beyond the ordinary to each project. In addition, we also help the clients to provide the best user experience to their consumers.</p>
+            <p className="fs-5  mb-3">Trusted partner for 30+ companies. Expert IT solutions. Elevate your ventures with our innovative and tailored expertise.</p>
+            <p className="fs-5  mb-3">We are a top Blockchain app development company, proficient in both web and blockchain development. Our skilled team excels in integrating decentralized solutions for diverse applications, from smart contracts to games and exchanges. Join us as we redefine possibilities and empower businesses in the evolving digital landscape.</p>
           </div>
         </div>
       </div>
@@ -73,35 +85,38 @@ function Home() {
 </section>
 
     <section className="cta position-relative overflow-hidden">
-  <img className="bg-img" src="./assets/img/pexels-fauxels-3184418.jpg" style={{width: '50%!important'}} alt />
+  <img className="bg-img" src="./assets/img/person sitting at a desk (1).jpg" style={{width: '50%!important'}} alt />
   <div className="bg-filter-dark" />
   {/* <img class="bg-img" src="./assets/img/h2-img-3.png" alt=""> */}
   <div className="row">
     <div className="cta-content col-lg-6 d-flex align-items-center justify-content-center overflow-hidden">
       <div className="container px-5 row gx-5 py-5 align-items-center">
-        <h1 className="display-5 pb-3 glow-text lh-1 mb-3 text-white fw-bold g-text text-center">WE MAKE DREAMS
-          <br /> COME TO LIFE
-        </h1>
+        <h1 className="display-5 pb-3 glow-text lh-1 mb-3 text-white fw-bold g-text text-center">Best Web & Mobile App Development Company</h1>
         {/* <h2 class="text-white display-1 lh-1 mb-4 ">
               WE MAKE DREAMS <br> COME TO LIFE
           </h2> */}
         <p className="lead fw-normal text-white mb-4 text-center">
-          The Game development is easy with METAKOPS and allows you to build and design your own Game. we create the games as you dream it. Metakops have Experience React Native and Flutter app developer based on across India. We deliver Mobile games, eCommerce
-          development, enterprise software development, and all other EMERGING TECHNOLOGIES LIKE Blockchain Development, AR/VR, Machine Learning, and AI.
+         A full-stack mobile and website development company that caters to all your requirements. We specialize in eCommerce and Custom application development for international and regional brands.
         </p>
         {/* <a href="#!" class="btn btn-outline-primary text-primary1 bg-transparent">Explore games</a> */}
       </div>
     </div>
     <div className="col-lg-6 ">
-      <img className="cta-content-img" src="./assets/img/metakops-team.jpg" alt />
+      <img className="cta-content-img" src="./assets/img/person sitting at a desk (1).jpg" alt />
     </div>
   </div>
 </section>
+{/* <Carousel/> */}
 
 <ProsessAndServices />
 <TrendingProducts />
 <AboutNews/>
 <Message/>
+
+
+
+
+
 
 
 

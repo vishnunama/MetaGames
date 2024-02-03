@@ -27,51 +27,57 @@ function AboutUs() {
     </div>
   </section>
   {/* About sec-3 */}
-  <section className="cta position-relative overflow-hidden ">
+    <section className="cta position-relative overflow-hidden ">
     {/* <img class="bg-img" src="./assets/img/—Pngtree—casino slot with chips and_5986400.png" alt=""> */}
     {/* <div class="bg-filter-dark"></div> */}
     {/* <img class="bg-img" src="./assets/img/h2-img-3.png" alt=""> */}
     <div className="row">
       <div className="cta-content ps-5 col-lg-6 d-flex align-items-center overflow-hidden">
         <div className="container ab-containet px-5 ms-3 row gx-5 py-5 align-items-center">
-          <h1 className="display-5 txt-center-m glow-text lh-2 mb-4 text-white fw-bold g-text">Metakops <span style={{fontWeight: 'lighter'}}>Gaming Studio <span>
+          <h1 style={{fontSize:"44px"}} className="display-5 txt-center-m glow-text lh-2 mb-4 text-white fw-bold g-text">MetaBlock <span style={{fontWeight: 'lighter'}}>Associates  <span>
               </span></span></h1>
+              {/* <h1 className="display-5 txt-center-m glow-text lh-2 mb-4 text-white fw-bold g-text">MetaBlock <span style={{fontWeight: 'lighter'}}>affiliate  <span>
+              </span></span></h1>
+               <h1 className="display-5 txt-center-m glow-text lh-2 mb-4 text-white fw-bold g-text"><span style={{fontWeight: 'lighter'}}>Partner program  <span>
+              </span></span></h1> */}
           {/* <h2 class="text-white display-1 lh-1 mb-4 ">
               WE MAKE DREAMS <br> COME TO LIFE
           </h2> */}
           <h4 className="text-dark mb-4 txt-center-m">
-            Best Game Development Company in India
+Empowering Growth Through MetaBlock Associates
           </h4>
           <p className=" fw-normal text-dark mb-4 txt-center-m">
-            Building your own game can be a fun and rewarding experience, but it also requires a lot of hard work, dedication,
-            and technical knowledge. The game development process typically begins with an idea or concept, which is then 
-            fleshed out into a game design document that outlines the gameplay mechanics, story, characters, and other key elements. 
-            From there, the game is developed using a combination of programming languages, game engines, and software tools. Metakops 
-            allows you to build your own game. Metakops have Experience React Native and Flutter app developers based across India. 
-            At our company, we specialize in providing a wide range of services, including the development of mobile games, eCommerce 
-            solutions, enterprise software, and various cutting-edge technologies such as Blockchain, AR/VR, Machine Learning, and AI
+            Welcome to one of the largest affiliate
+marketing Partner programs in the world who work in It Sector . 
+The
+MetaBlock Associates Program helps content
+creators, publishers and bloggers monetize
+their traffic. With millions of products and
+programs available on MetaBlock associates 
+Prmote Our Service to 
+audience to their recommendations, and
+earn from close the deal
           </p>
+          <h1 className="display-5 txt-center-m glow-text lh-2 mb-4 text-white fw-bold g-text">MetaBlock <span style={{fontWeight: 'lighter'}}>affiliate  <span>
+              </span></span></h1>
           <h4 className="text-dark mb-4 txt-center-m">
-            We Provide Best tech solutions for your business
+Elevate Your Business with MetaBlock Affiliates
           </h4>
           <div className="col-lg-12 d-flex align-items-center overflow-hidden">
+            
             <p className=" fw-normal text-dark mb-4 txt-center-m">
-              In this competitive world of gaming Metakops gaming company build your game with higher skills and expertise.
-              Game development is a complex and challenging field that requires a range of skills and expertise, 
-              including artistic ability, technical proficiency, and creativity. It is also a highly competitive industry, 
-              metakops have many talented developers who achieve success in their every development. At Metakops, our team of 
-              designers and game developers bring expertise above and beyond the ordinary to each project. Furthermore, we assist 
-              our clients in enhancing the user experience for their customers, aiming to deliver the best possible satisfaction.
+             If Meta-Block Associates is a specific company, affiliate program, or partner program, I recommend checking their official website, contacting their customer support, or referring to any official documentation they provide for the most accurate and up-to-date information.If you have more context or specific details about Meta-Block Associates, feel free to share, and I'll do my best to assist you based on the information available up to my last update.
             </p>
           </div>
           {/* <a href="#!" class="btn btn-outline-primary text-primary1 bg-transparent">Explore games</a> */}
         </div>
       </div>
       <div className="col-lg-6 ps-0">
-        <img className="cta-content-img" src="https://www.metakops.com/assets/img/ludo-game-development-banner.png" alt />
+        <img className="cta-content-img1" src="./assets/img/image17.jpg" alt />
       </div>
     </div>
   </section>
+ 
   {/* mission sec-3 */}
   {/* About <section class="cta position-relative overflow-hidden ">
   <!-- <img class="bg-img" src="./assets/img/—Pngtree—casino slot with chips and_5986400.png" alt=""> */}
@@ -139,12 +145,7 @@ function AboutUs() {
                 <div className="card-icon text-center"><FaTrophy className="fa fa-trophy" /></div>
                 <h2 className="card-title text-center">MISSION</h2>
                 <p className="card-text">
-                  Metakops mission of game development is typically to create an engaging, immersive, and enjoyable experience for players.
-                  We strive to create games that are entertaining, challenging, and offer players a sense of accomplishment and satisfaction.
-                  In addition to creating games that are fun and engaging, we also aim to push the boundaries of technology and design. We involve
-                  developing games with innovative gameplay mechanics, immersive storylines, or stunning graphics and sound effects. Our main focuse
-                  is providing high-quality games that provide an entertaining and engaging experience for players and and refining games based on feedback
-                  from players.
+                  MetaBlock mission Helpful Insight is the best web development company in India and one-stop solution for all development requirements. We combine innovation and skills to provide custom web and mobile application development solutions.
                 </p>
               </div>
             </div>
@@ -154,12 +155,8 @@ function AboutUs() {
               <div className="card-body">
                 <div className="card-icon text-center"><FaEye className="fa fa-eye" /></div>
                 <h2 className="card-title text-center">VISION</h2>
-                <p className="card-text">The vision of Metakops for game development is to create innovative, immersive, and meaningful experiences
-                  for players across a range of platforms and genres and also includes creating games that are accessible to a broad audience,
-                  including players of all ages, genders, and backgrounds. Metakops develop games on national and international level. It 
-                  involves creating games that are tailored to the cultural, social, and linguistic nuances of different regions and countries.
-                  This involves considering the local context of a particular region or country, such as language, customs, and cultural values, 
-                  in the game design process.
+                <p className="card-text">
+                 It’s important that your website works properly and efficiently from the users’t. This is where you need a trustworthy Website designing company like MetaBlock who always deliver an optimized and error-free solution.
                 </p>
               </div>
             </div>

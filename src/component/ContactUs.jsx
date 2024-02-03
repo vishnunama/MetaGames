@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa';
 
 function ContactUs() {
   return (
@@ -25,7 +26,9 @@ function ContactUs() {
   </section>
   {/* contect us sec-7 */}
   <section className="section position-relative py-5">
-    <video className="bg-img" playsInline="playsinline" autoPlay="autoplay" muted="muted" loop="loop"><source src="./assets/mp4/bg.mp4" type="video/mp4" /></video>
+    <video className="bg-img" playsInline="playsinline" autoPlay="autoplay" muted="muted" loop="loop">
+      <source src="./assets/img/blog/WhatsApp Video 2024-02-02 at 16.53.25_c5287eef.mp4" type="video/mp4" />
+      </video>
     {/* <img class="bg-img c-bg-img" src="./assets/img/Rectangle1.png" alt=""> */}
     <div className="bg-filter" />
     <div className="container">
@@ -76,24 +79,38 @@ function ContactUs() {
                   <div className="block mt-4">
                     <h4 className="h5">Address</h4>
                     <div className="content">
-                      Ashok Nagar, Udaipur,.
+                      Mansarovar,Jaipur
                       <br />Rajasthan 313001.</div>
                   </div>
                   <div className="block mt-4">
                     <h4 className="h5">Address</h4>
-                    <div className="content">Vaishali Tower II,Nursery Cir,
-                      <br /> Vaishali Nagar,
-                      <br />Jaipur, Rajasthan 302021.</div>
+                    <div className="content">Shyam Nagar
+                      <br />  Mansarovar
+                      <br />Jaipur, Rajasthan 302020.</div>
                   </div>
                   <div className="block">
-                    <ul className="list-unstyled list-inline my-4 social-icons">
-                      <li className="list-inline-item me-3"><a title="Explorer Facebook Profile" className="text-white" href="https://www.facebook.com/metakops"><i className="fab fa-facebook-f" /></a>
-                      </li>
-                      <li className="list-inline-item me-3"><a title="Explorer LinkedIn Profile" className="text-white" href="https://www.linkedin.com/company/metakops/"><i className="fab fa-linkedin" /></a>
-                      </li>
-                      <li className="list-inline-item me-3"><a title="Explorer Instagram Profile" className="text-white" href="https://www.instagram.com/metakops/"><i className="fab fa-instagram" /></a>
-                      </li>
-                    </ul>
+                         <ul className="list-unstyled list-inline my-4 social-icons">
+      <li className="list-inline-item me-3">
+        <a title="Explorer Facebook Profile" className="text-white" target='blank' href="https://www.facebook.com/metablocktechnologies/">
+          <FaFacebook />
+        </a>
+      </li>
+      <li className="list-inline-item me-3">
+        <a title="Explorer LinkedIn Profile" className="text-white" target='blank' href="https://www.linkedin.com/company/metablocktechnologies/mycompany/">
+          <FaLinkedin />
+        </a>
+      </li>
+      <li className="list-inline-item me-3">
+        <a title="Explorer Instagram Profile" className="text-white"  target='blank' href="https://www.instagram.com/metablocktechnologies1/">
+          <FaInstagram />
+        </a>
+      </li>
+      <li className="list-inline-item me-3">
+        <a title="Explorer YouTube Profile" className="text-white" target='blank' href="https://www.youtube.com/@metablocktechnologies">
+          <FaYoutube />
+        </a>
+      </li>
+    </ul>
                   </div>
                 </div>
               </div>

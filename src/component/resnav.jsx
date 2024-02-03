@@ -47,9 +47,9 @@ export default function SwipeableTemporaryDrawer() {
         navigate('/OurProcess'); // Replace '/about' with your actual about route
         break;
 
-        case 'Portfolio':
-        navigate('/Portfolio'); // Replace '/about' with your actual about route
-        break;
+        // case 'Portfolio':
+        // navigate('/Portfolio'); // Replace '/about' with your actual about route
+        // break;
          case 'ContactUs':
         navigate('/ContactUs'); // Replace '/about' with your actual about route
         break;
@@ -71,7 +71,7 @@ export default function SwipeableTemporaryDrawer() {
 
     >
       <List>
-        {['Home', 'About', 'OurProcess', 'Portfolio','ContactUs'].map((text, index) => (
+        {['Home', 'About', 'OurProcess', 'ContactUs'].map((text, index) => (
           <ListItem key={text} disablePadding>
             <ListItemButton onClick={() => handleListItemClick(text)} >
               <ListItemIcon>

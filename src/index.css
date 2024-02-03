@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.slick-next{
+  right: 0px !important;
+  /* bottom: 1000px !important; */
+  /* width: 1px !important; */
+}
+.w-100{
+  /* margin-top: 130px !important; */
+}
+.py-5{
+/* padding-top: 1px !important;
+padding-bottom: 1px !important; */
+}
+@media (max-width: 500px) {
+
+  /* Add your specific styles for screens with a maximum width of 500 pixels here */
+  .w-100 {
+  /* margin-top: 110px !important; */
+      /* Set the width to 100% for images */
+  }
+}
