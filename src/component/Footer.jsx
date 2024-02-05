@@ -17,10 +17,10 @@ function Footer() {
         {/* Grid column */}
         <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 mt-4">
           {/* Content */}
-          <h6 className="text-uppercase fw-bold">Company name</h6>
-          <img className="w-75 mb-3" src="./assets/img/WhatsApp_Image_2024-01-09_at_18.14.16_c401108b-removebg-preview.webp" alt />
+          {/* <h6 className="text-uppercase fw-bold">Company name</h6> */}
+          <img  className="w-75 mb-3" src="./assets/img/WhatsApp_Image_2024-01-09_at_18.14.16_c401108b-removebg-preview.webp" alt />
           {/* <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" /> */}
-          <p>
+          <p style={{marginTop:"30px"}}>
 MetaBlock is an Web/Mobile App Development Company. In our 07+ years of experience we have continually delivered modern technology solutions that have strengthen enterprise’s technical infrastructure and helped them lead in their business domain. </p>
         </div>
         {/* Grid column */}

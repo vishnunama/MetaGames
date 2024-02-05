@@ -18,10 +18,13 @@ const Carousel = () => {
   return (
     <Slider {...settings}>
       <div className="col-lg-6 ">
-      <img className="cta-content-img" src="./assets/img/WhatsApp Image 2024-02-02 at 14.07.18_ef1ff58a.jpg" alt />
+      <img className="cta-content-img" src="./assets/img/DSC_1129.jpg" alt />
     </div>
       <div className="col-lg-6 ">
-      <img className="cta-content-img" src="./assets/img/WhatsApp Image 2024-02-02 at 13.59.51_8014e6c0.jpg" alt />
+      <img className="cta-content-img" src="./assets/img/fgh.jpg" alt />
+    </div>
+    <div className="col-lg-6 ">
+      <img className="cta-content-img" src="./assets/img/DSC_1155.jpg" alt />
     </div>
       {/* <div>
         <img src="https://6valley-aster.6amtech.com/storage/app/public/banner/2023-06-11-6485a06bd15af.png" alt="Slide 3" />

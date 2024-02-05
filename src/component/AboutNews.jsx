@@ -14,7 +14,7 @@ function AboutNews() {
       <h1 className="display-6  pb-3 text-center pt-5 glow-text lh-1 mb-3 text-white fw-bold section-title g-text">
         What Clients Say About Us
       </h1>
-      <p className="text-center text-dark">We hold the superiority and trust in the IT Services</p>
+      {/* <p className="text-center text-dark">We hold the superiority and trust in the IT Services</p> */}
     </div>
     <div className="swiper mySwiper mx-5 py-5">
       <div className="swiper-wrapper">

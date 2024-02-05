@@ -1,6 +1,7 @@
 import React from 'react'
 // import { useNavigate } from 'react-router-dom';
 import { FaEye, FaTrophy } from 'react-icons/fa';
+import AboutNews from './AboutNews';
 
 
 function AboutUs() {
@@ -73,7 +74,7 @@ Elevate Your Business with MetaBlock Affiliates
         </div>
       </div>
       <div className="col-lg-6 ps-0">
-        <img className="cta-content-img1" src="./assets/img/image17.jpg" alt />
+        <img className="cta-content-img1" src="./assets/img/image28.jpg" alt />
       </div>
     </div>
   </section>
@@ -166,6 +167,102 @@ Elevate Your Business with MetaBlock Affiliates
     </section> 
     {/* Footer sec-8  */}
   </section></div>
+  <section className="cta position-relative  changing overflow-hidden">
+    <img className="bg-img" src="./assets/img/blog-background-01.png" alt />
+    <div className="bg-filter" />
+    {/* <img class="bg-img" src="./assets/img/h2-img-3.png" alt=""> */}
+    <div className=" justify-content-center text-center py-5 d-flex w-100 overflow-hidden row">
+      <div className="col-lg-5 container c-contant-text ps-5 row gx-5 ms-5 align-items-center">
+        <h1 style={{fontSize:"50px"}} className="display-4 pb-3 glow-text c-head text-white fw-bold g-text g-text-h">Why Choose Us</h1>
+        {/* <h2 class="text-white display-1 lh-1 mb-4 ">
+                  WE MAKE DREAMS <br> COME TO LIFE
+              </h2> */}
+        <p className="lead fw-normal text-light mb-0 ">We feed the needs of our clients with the best team distribution. In addition, our pool of talent helps us achieve outstanding and astonishing results in each project that we undertake.</p>
+        <p className="lead fw-normal text-light mb-4 ">Our mission at MetaBlock is to create the most useful solutions for our clients and to help them achieve all their digital goals.</p>
+        {/* <a href="#!" class="btn btn-outline-primary text-primary1 bg-transparent">Explore games</a> */}
+      </div>
+      <div className="col-lg-6">
+        <div className="row gap-5 c-contant-1 d-flex justify-content-center">
+          <div className="award-1 col-lg-4 p-0 px-1 pt-1">
+            <div className="text-start text-white p-award-1 rounded-10 p-3">
+              <h1 className="fs-4 year">YEARS of Work Exp.</h1>
+              <h1 className="text-warning">10+</h1>
+              <p>substantial experience in delivering IT solutions &amp; services.</p>
+            </div>
+          </div>
+          <div className="award-1 col-lg-4 p-0 px-1 pt-1">
+            <div className="text-start text-white p-award-1 rounded-10 p-3">
+              <h1 className="fs-4 year">Team Member</h1>
+              <h1 className="text-warning">100+</h1>
+              <p>We have the best team of developers and designers with diverse skills that help us work into multiple services.</p>
+            </div>
+          </div>
+          <div className="award-1 col-lg-4 p-0 px-1 pt-1">
+            <div className="text-start text-white p-award-1 rounded-10 p-3">
+              <h1 className="fs-4 year">Happy Clients</h1>
+              <h1 className="text-warning">1000+</h1>
+              <p>From customer service to customer satisfaction and loyalty</p>
+            </div>
+          </div>
+          <div className="award-1 col-lg-4 p-0 px-1 pt-1">
+            <div className="text-start text-white p-award-1 rounded-10 p-3">
+              <h1 className="fs-4 year">Cost Effective</h1>
+              <h1 className="text-warning">100%</h1>
+              <p> We offer 100% cost-effective service in 100% satisfaction way.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   <section className="cta position-relative  changing overflow-hidden">
+    <img className="bg-img" src="./assets/img/blog-background-01.png" alt />
+    <div className="bg-filter" />
+    {/* <img class="bg-img" src="./assets/img/h2-img-3.png" alt=""> */}
+    <div style={{paddingBottom:"100px"}}  className=" justify-content-center text-center  d-flex w-100 overflow-hidden row">
+      <div className="col-lg-5 container c-contant-text ps-5 row gx-5 ms-5 align-items-center">
+        {/* <h1 style={{fontSize:"50px"}} className="display-4 pb-3 glow-text c-head text-white fw-bold g-text g-text-h">Why Choose Us</h1>
+        {/* <h2 class="text-white display-1 lh-1 mb-4 ">
+                  WE MAKE DREAMS <br> COME TO LIFE
+              </h2> */}
+        <p className="lead fw-normal text-light mb-0 ">In-house development, coupled with reliable product delivery, underscores our commitment as your trusted partner. Our focus on incorporating the latest technologies empowers us to provide innovative solutions, ensuring we remain at the forefront of the industry.</p>
+        <p className="lead fw-normal text-light mb-4 ">With a dedicated emphasis on in-house development, our team is empowered to craft tailored solutions that precisely meet your needs. The successful delivery of products reflects our unwavering commitment to quality and efficiency, solidifying our role as a trusted partner in your journey.</p>
+        {/* <a href="#!" class="btn btn-outline-primary text-primary1 bg-transparent">Explore games</a> */} 
+      </div>
+      <div className="col-lg-6">
+        <div className="row gap-5 c-contant-1 d-flex justify-content-center">
+          <div className="award-1 col-lg-4 p-0 px-1 pt-1">
+            <div className="text-start text-white p-award-1 rounded-10 p-3">
+              <h1 className="fs-4 year">In House Development</h1>
+              <h1 className="text-warning">1000+</h1>
+              <p>In-house development ensures control, agility, and seamless integration.</p>
+            </div>
+          </div>
+          <div className="award-1 col-lg-4 p-0 px-1 pt-1">
+            <div className="text-start text-white p-award-1 rounded-10 p-3">
+              <h1 className="fs-4 year">Product delivered</h1>
+              <h1 className="text-warning">100% </h1>
+              <p>Complete product delivery achieved, 100% fulfillment.</p>
+            </div>
+          </div>
+          <div className="award-1 col-lg-4 p-0 px-1 pt-1">
+            <div className="text-start text-white p-award-1 rounded-10 p-3">
+              <h1 className="fs-4 year">Your trusted Partner</h1>
+              <h1 className="text-warning">100%</h1>
+              <p>Your trusted partner in success, committed to delivering excellence and value.</p>
+            </div>
+          </div>
+          <div className="award-1 col-lg-4 p-0 px-1 pt-1">
+            <div className="text-start text-white p-award-1 rounded-10 p-3">
+              <h1 className="fs-4 year">Latest technologies</h1>
+              <h1 className="text-warning">100%</h1>
+              <p>Innovating effortlessly with the latest technologies for seamless progress.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   </div>
 
   )

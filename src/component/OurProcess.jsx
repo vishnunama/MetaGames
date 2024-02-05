@@ -1,4 +1,5 @@
 import React from 'react'
+import AboutNews from './AboutNews';
 
 function OurProcess() {
   return (
@@ -40,7 +41,7 @@ We're a tech company based in Jaipur, Rajasthan, and we've been around for three
         </div>
       </div>
       <div className="col-lg-6 ">
-        <img className="cta-content-img" src="/assets/img/deskstop_wallet-removebg-preview.png" alt />
+        <img className="cta-content-img" src="/assets/img/_eb69011f-ca03-42a1-b201-7e356d33987b.jpeg" alt />
       </div>
     </div>
   </section>
@@ -149,6 +150,8 @@ Our Marketing Team is the creative force behind spreading the word about our inn
         <img className="cta-content-img" src="/assets/img/Blue Minimalist Certificate ( Landscape ).png" alt />
       </div>
     </div>
+      <AboutNews/>
+
   </section>
 </div>
 

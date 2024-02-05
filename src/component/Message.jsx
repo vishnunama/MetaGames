@@ -13,7 +13,7 @@ function Message() {
     {/* <img class="bg-img" src="./assets/img/h2-img-3.png" alt=""> */}
     <div className=" justify-content-center text-center py-5 d-flex w-100 overflow-hidden row">
       <div className="col-lg-5 container c-contant-text ps-5 row gx-5 ms-5 align-items-center">
-        <h1 className="display-4 pb-3 glow-text c-head text-white fw-bold g-text g-text-h">We're changing the game, just like you</h1>
+        <h1 style={{fontSize:"50px"}} className="display-4 pb-3 glow-text c-head text-white fw-bold g-text g-text-h">Why Choose Us</h1>
         {/* <h2 class="text-white display-1 lh-1 mb-4 ">
                   WE MAKE DREAMS <br> COME TO LIFE
               </h2> */}
@@ -26,21 +26,21 @@ function Message() {
           <div className="award-1 col-lg-4 p-0 px-1 pt-1">
             <div className="text-start text-white p-award-1 rounded-10 p-3">
               <h1 className="fs-4 year">YEARS of Work Exp.</h1>
-              <h1 className="text-warning">5+</h1>
+              <h1 className="text-warning">10+</h1>
               <p>substantial experience in delivering IT solutions &amp; services.</p>
             </div>
           </div>
           <div className="award-1 col-lg-4 p-0 px-1 pt-1">
             <div className="text-start text-white p-award-1 rounded-10 p-3">
               <h1 className="fs-4 year">Team Member</h1>
-              <h1 className="text-warning">30+</h1>
+              <h1 className="text-warning">100+</h1>
               <p>We have the best team of developers and designers with diverse skills that help us work into multiple services.</p>
             </div>
           </div>
           <div className="award-1 col-lg-4 p-0 px-1 pt-1">
             <div className="text-start text-white p-award-1 rounded-10 p-3">
               <h1 className="fs-4 year">Happy Clients</h1>
-              <h1 className="text-warning">100+</h1>
+              <h1 className="text-warning">1000+</h1>
               <p>From customer service to customer satisfaction and loyalty</p>
             </div>
           </div>
@@ -55,6 +55,55 @@ function Message() {
       </div>
     </div>
   </section>
+   <section className="cta position-relative py-5 changing overflow-hidden">
+    <img className="bg-img" src="./assets/img/blog-background-01.png" alt />
+    <div className="bg-filter" />
+    {/* <img class="bg-img" src="./assets/img/h2-img-3.png" alt=""> */}
+    <div style={{paddingBottom:"100px"}}  className=" justify-content-center text-center  d-flex w-100 overflow-hidden row">
+      <div className="col-lg-5 container c-contant-text ps-5 row gx-5 ms-5 align-items-center">
+        {/* <h1 style={{fontSize:"50px"}} className="display-4 pb-3 glow-text c-head text-white fw-bold g-text g-text-h">Why Choose Us</h1>
+        {/* <h2 class="text-white display-1 lh-1 mb-4 ">
+                  WE MAKE DREAMS <br> COME TO LIFE
+              </h2> */}
+        <p className="lead fw-normal text-light mb-0 ">In-house development, coupled with reliable product delivery, underscores our commitment as your trusted partner. Our focus on incorporating the latest technologies empowers us to provide innovative solutions, ensuring we remain at the forefront of the industry.</p>
+        <p className="lead fw-normal text-light mb-4 ">With a dedicated emphasis on in-house development, our team is empowered to craft tailored solutions that precisely meet your needs. The successful delivery of products reflects our unwavering commitment to quality and efficiency, solidifying our role as a trusted partner in your journey. </p>
+        {/* <a href="#!" class="btn btn-outline-primary text-primary1 bg-transparent">Explore games</a> */} 
+      </div>
+      <div className="col-lg-6">
+        <div className="row gap-5 c-contant-1 d-flex justify-content-center">
+          <div className="award-1 col-lg-4 p-0 px-1 pt-1">
+            <div className="text-start text-white p-award-1 rounded-10 p-3">
+              <h1 className="fs-4 year">In House Development</h1>
+              <h1 className="text-warning">1000+</h1>
+              <p>In-house development ensures control, agility, and seamless integration.</p>
+            </div>
+          </div>
+          <div className="award-1 col-lg-4 p-0 px-1 pt-1">
+            <div className="text-start text-white p-award-1 rounded-10 p-3">
+              <h1 className="fs-4 year">Product delivered</h1>
+              <h1 className="text-warning">100% </h1>
+              <p>Complete product delivery achieved, 100% fulfillment.</p>
+            </div>
+          </div>
+          <div className="award-1 col-lg-4 p-0 px-1 pt-1">
+            <div className="text-start text-white p-award-1 rounded-10 p-3">
+              <h1 className="fs-4 year">Your trusted Partner</h1>
+              <h1 className="text-warning">100%</h1>
+              <p>Your trusted partner in success, committed to delivering excellence and value.</p>
+            </div>
+          </div>
+          <div className="award-1 col-lg-4 p-0 px-1 pt-1">
+            <div className="text-start text-white p-award-1 rounded-10 p-3">
+              <h1 className="fs-4 year">Latest technologies</h1>
+              <h1 className="text-warning">100%</h1>
+              <p>Innovating effortlessly with the latest technologies for seamless progress.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
   {/* contect us sec-7 */}
   <section className="section position-relative py-5">
     <video className="bg-img" playsInline="playsinline" autoPlay="autoplay" muted="muted" loop="loop">
@@ -108,19 +157,23 @@ function Message() {
                   <div className="block mt-0">
                     <h4 className="h5">Still Have Questions?</h4>
                     <div className="content">Call Us We Will Be Happy To Help
-                      <br /> <a href="tel:+917300003151" style={{color: 'white', /* display: 'none', */
+                      <br /> <a href="tel:+919358593001" style={{color: 'white', /* display: 'none', */
                                           /* color: 'var(--bs-link-color)', */
-                                          textDecoration: 'none'}}> +917300003151 </a>
-                      <br />Monday - Friday
-                      <br />9AM TO 6PM
+                                          textDecoration: 'none'}}> +919358593001 </a>
+                                        
+                      <br />  <br /> Monday - Saturday
+                      <br />10AM TO 7PM
+                      <br />  <br />  <a href="tel:+919358593003" style={{color: 'white', /* display: 'none', */
+                                          /* color: 'var(--bs-link-color)', */
+                                          textDecoration: 'none'}}> +919358593003 </a>
                     </div>
                   </div>
-                  
+                   <br /> 
                   <div className="block mt-4">
                     <h4 className="h5">Address</h4>
-                    <div className="content">Shyam Nagar
-                      <br /> Mansarovar
-                      <br />Jaipur, Rajasthan 302020.
+                    <div className="content">tammana Apartment
+                      <br />Sarti Nagar, Shyam Nagar
+                      <br />  Jaipur, Rajasthan 302019.
                     </div>
                   </div>
                   <div className="block">
