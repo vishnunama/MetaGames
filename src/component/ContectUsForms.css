@@ -1029,7 +1029,7 @@ width: 42%;
     }
 
      img {
-        margin-top: 15px;
+        margin-top: 0px !important;
     }
 
      .contact_form_new {

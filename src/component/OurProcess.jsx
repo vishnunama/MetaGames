@@ -5,10 +5,10 @@ function OurProcess() {
   return (
     <div>
 <div>
-  <section className="page-header pt-5 bg-tertiary">
+  <section className="page-header  bg-tertiary">
     <img className="bg-img" src="https://www.metakops.com/assets/img/top-banner-metakops-gaming-studio.png" alt />
     <div className="bg-filter" />
-    <div className="container pt-5">
+    <div className="container">
       <div className="row">
         <div className="col-8 mx-auto text-center text-white">
           <h2 className="mb-3 text-capitalize text-white">Our Process</h2>
@@ -71,7 +71,7 @@ What sets us apart is our dedication to understanding your unique needs and craf
     </div>
   </section>
   {/* Process 3*/}
-  <section className="cta position-relative overflow-hidden">
+  <section  style={{paddingBottom:"40px "}}  className="cta position-relative overflow-hidden">
     {/*  <img class="bg-img" src="./assets/img/pexels-fauxels-3184418.jpg" alt="">*/}
     <div className="bg-filter-dark" />
     {/* <img class="bg-img" src="./assets/img/h2-img-3.png" alt=""> */}

@@ -4,7 +4,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 
 function TrendingProducts() {
   return (
-   <section id="features" className="position-relative py-5 fade-in one">
+   <section id="features" className="position-relative  fade-in one">
   {/* background image */}
   {/* <img class="bg-img" src="./assets/img/ludo-game.jpeg" alt="">
               <div class="bg-filter"></div> */}
@@ -87,7 +87,7 @@ function TrendingProducts() {
             </div>
           </div>
         </div>
-        <div className="container-fluid justify-content-center py-5 raw d-flex flex-wrap">
+        <div className="container-fluid justify-content-center  raw d-flex flex-wrap">
           <div className="col-md-3 mb-5 ">
             {/* Feature item*/}
             <div className="text-center d-flex flex-column align-items-center ">
@@ -153,24 +153,23 @@ function TrendingProducts() {
             </div>
           </div>
         </div>
-        <div className="container-fluid justify-content-center py-5 raw d-flex flex-wrap">
+        <div className="container-fluid justify-content-center  raw d-flex flex-wrap">
           <div className="col-md-3 mb-5 ">
-            {/* Feature item*/}
-            <div className="text-center d-flex flex-column align-items-center ">
-              <div className="img-box mb-3 overflow-hidden shadow">
-                <img src="./assets/img/image8.jpg" alt />
-              </div>
-              {/* <i class="bi-phone icon-feature text-gradient d-block mb-3 "></i> */}
-              <h3 className="fs-5 pb-4 pt-2 text-dark">Accounting & Billing Software
-</h3>
-              <div className=" w-fit">
-                {/* <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a> */}
-                <a href="https://wa.me/message/L3YD6DCLY2GQL1" className="color-btn nohover gap-2">Start
-                  chat <FaWhatsapp name="logo-whatsapp" className="fs-5" /></a>
-                {/* <a href="https://wa.me/message/L3YD6DCLY2GQL1"><img class="app-badge" width="200px" src="assets/img/button-demo.png" alt="..." /></a> */}
-              </div>
-            </div>
-          </div>
+    {/* Feature item*/}
+    <div className="text-center d-flex flex-column align-items-center ">
+        <div className="img-box mb-3 overflow-hidden shadow">
+            <img src="./assets/img/image8.jpg" alt className="img-fluid" />
+        </div>
+        {/* <i class="bi-phone icon-feature text-gradient d-block mb-3 "></i> */}
+        <h3 className="fs-5 pb-4 pt-2 text-dark">Accounting & Billing Software</h3>
+        <div className=" w-fit">
+            {/* <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a> */}
+            <a href="https://wa.me/message/L3YD6DCLY2GQL1" className="color-btn nohover gap-2">Start chat <FaWhatsapp name="logo-whatsapp" className="fs-5" /></a>
+            {/* <a href="https://wa.me/message/L3YD6DCLY2GQL1"><img class="app-badge" width="200px" src="assets/img/button-demo.png" alt="..." /></a> */}
+        </div>
+    </div>
+</div>
+
           <div className="col-md-3 mb-5 ">
             {/* Feature item*/}
             <div className="text-center d-flex flex-column align-items-center ">

@@ -4,11 +4,11 @@ function ProsessAndServices() {
   return (
     <>
     <section   className="position-relative">
-    <div className="container-fluid process  py-5 h-100">
+    <div  style={{paddingBottom:"40px "}}  className="container-fluid process   h-100">
       <div className="w-100 d-flex align-items-center justify-content-center flex-column">
         <h1 className="display-6 pb-3 pb-2 text-center pt-5 glow-text lh-1 mb-3 text-main fw-bold section-title g-text">
           Our process</h1>
-        <p className="lg-text-center">Metablock Technologies is an IT company which works on web, sofware, application, gaming application, and Blockchain development etc.
+        <p  style={{paddingBottom:"40px "}}  className="lg-text-center">Metablock Technologies is an IT company which works on web, sofware, application, gaming application, and Blockchain development etc.
 
         </p>
       </div>
@@ -56,7 +56,7 @@ function ProsessAndServices() {
       <div className="row align-items-center justify-content-lg-between justify-content-md-between justify-content-sm-center">
         <div className="col-lg-5 col-md-5 col-sm-7">
           <div className="item_image">
-            <img className='responsive-image-in' style={{width:"100%",borderRadius:"30px",marginTop:"-120px"}} src="./assets/img/_7a0f73b9-e17e-44e3-8598-56a8539fa7f8.jpeg" alt="image_not_found" />
+            <img className='responsive-image-in' style={{width:"90%",borderRadius:"30px",marginTop:"-120px"}} src="./assets/img/_7a0f73b9-e17e-44e3-8598-56a8539fa7f8.jpeg" alt="image_not_found" />
           </div>
         </div>
         <div className="col-lg-6 col-md-6 col-sm-7 p-4 image-inner-in" style={{ borderRadius: 25}}>
@@ -73,7 +73,7 @@ Learn From our Powerfull Training And Earn Money From our Metablock Affiliate P
 </section>
     </div>
   </section>
-  <section className="position-relative py-5 ourservises ">
+  <section className="position-relative  ourservises ">
     <img className="bg-img" src="./assets/img/backgroundimage.jpg" alt />
     <div className="bg-filter " />
     <div className="w-100 d-flex align-items-center justify-content-center flex-column">

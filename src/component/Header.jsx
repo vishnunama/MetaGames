@@ -22,7 +22,7 @@ function Header(props) {
           <div className="logo">
             <h1 className="logo-adn">
               <a className="e1">
-                <img style={{marginTop:"-10px"}} className="logo fade-in one" src="./assets/img/WhatsApp_Image_2024-01-09_at_18.14.16_c401108b-removebg-preview.webp" alt />
+                <img style={{marginTop:"3px",width:"130px"}} className="logo fade-in one" src="./assets/img/WhatsApp_Image_2024-01-09_at_18.14.16_c401108b-removebg-preview.webp" alt />
                 {/* <img src="./assets/img/metakopslogo.png"
                                       alt="Davidson Silva"> */}
               </a>

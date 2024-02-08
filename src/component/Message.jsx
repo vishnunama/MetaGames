@@ -7,17 +7,17 @@ import { FaFacebookF, FaLinkedin, FaInstagram, FaYoutube } from 'react-icons/fa'
 function Message() {
   return (
    <div>
-  <section className="cta position-relative py-5 changing overflow-hidden">
+  <section style={{paddingBottom:"40px "}} className="cta position-relative  changing overflow-hidden">
     <img className="bg-img" src="./assets/img/blog-background-01.png" alt />
     <div className="bg-filter" />
     {/* <img class="bg-img" src="./assets/img/h2-img-3.png" alt=""> */}
-    <div className=" justify-content-center text-center py-5 d-flex w-100 overflow-hidden row">
+    <div style={{paddingBottom:"-1px",paddingTop:"50px"}} className=" justify-content-center text-center d-flex w-100 overflow-hidden row">
       <div className="col-lg-5 container c-contant-text ps-5 row gx-5 ms-5 align-items-center">
         <h1 style={{fontSize:"50px"}} className="display-4 pb-3 glow-text c-head text-white fw-bold g-text g-text-h">Why Choose Us</h1>
         {/* <h2 class="text-white display-1 lh-1 mb-4 ">
                   WE MAKE DREAMS <br> COME TO LIFE
               </h2> */}
-        <p className="lead fw-normal text-light mb-0 ">We feed the needs of our clients with the best team distribution. In addition, our pool of talent helps us achieve outstanding and astonishing results in each project that we undertake.</p>
+        <p className="lead fw-normal text-light mb-0 ">We feed the needs of our clients with the best team distribution. In addition our pool of talent helps us achieve outstanding and astonishing results in each project that we undertake.</p>
         <p className="lead fw-normal text-light mb-4 ">Our mission at MetaBlock is to create the most useful solutions for our clients and to help them achieve all their digital goals.</p>
         {/* <a href="#!" class="btn btn-outline-primary text-primary1 bg-transparent">Explore games</a> */}
       </div>
@@ -55,17 +55,17 @@ function Message() {
       </div>
     </div>
   </section>
-   <section className="cta position-relative py-5 changing overflow-hidden">
+   <section  className="cta position-relative changing overflow-hidden">
     <img className="bg-img" src="./assets/img/blog-background-01.png" alt />
     <div className="bg-filter" />
     {/* <img class="bg-img" src="./assets/img/h2-img-3.png" alt=""> */}
-    <div style={{paddingBottom:"100px"}}  className=" justify-content-center text-center  d-flex w-100 overflow-hidden row">
+    <div style={{paddingBottom:"10px"}}  className=" justify-content-center text-center  d-flex w-100 overflow-hidden row">
       <div className="col-lg-5 container c-contant-text ps-5 row gx-5 ms-5 align-items-center">
         {/* <h1 style={{fontSize:"50px"}} className="display-4 pb-3 glow-text c-head text-white fw-bold g-text g-text-h">Why Choose Us</h1>
         {/* <h2 class="text-white display-1 lh-1 mb-4 ">
                   WE MAKE DREAMS <br> COME TO LIFE
               </h2> */}
-        <p className="lead fw-normal text-light mb-0 ">In-house development, coupled with reliable product delivery, underscores our commitment as your trusted partner. Our focus on incorporating the latest technologies empowers us to provide innovative solutions, ensuring we remain at the forefront of the industry.</p>
+        <p className="lead fw-normal text-light mb-0 "> underscores our commitment as your trusted partner. Our focus on incorporating the latest technologies empowers us to provide innovative solutions ensuring we remain at the forefront of the industry.</p>
         <p className="lead fw-normal text-light mb-4 ">With a dedicated emphasis on in-house development, our team is empowered to craft tailored solutions that precisely meet your needs. The successful delivery of products reflects our unwavering commitment to quality and efficiency, solidifying our role as a trusted partner in your journey. </p>
         {/* <a href="#!" class="btn btn-outline-primary text-primary1 bg-transparent">Explore games</a> */} 
       </div>
@@ -105,14 +105,14 @@ function Message() {
   </section>
   
   {/* contect us sec-7 */}
-  <section className="section position-relative py-5">
+  <section className="section position-relative ">
     <video className="bg-img" playsInline="playsinline" autoPlay="autoplay" muted="muted" loop="loop">
       <source src="./assets/img/blog/WhatsApp Video 2024-02-02 at 16.53.25_c5287eef.mp4" type="video/mp4" />
     </video>
     {/* <img class="bg-img c-bg-img" src="./assets/img/Rectangle1.png" alt=""> */}
     <div className="bg-filter" />
     <div className="container">
-      <div className="row justify-content-center align-items-center">
+      <div  style={{paddingTop:"40px "}}  className="row justify-content-center align-items-center">
         <div className="col-lg-6 pb-5">
           <div className="section-title text-center teext-white">
             <h1 className="text-white pb-3 g-text">Let’s get connected</h1>
@@ -126,7 +126,7 @@ function Message() {
               <div className="col-12 mb-4">
                 <h4 className="text-white">Leave Us A Message</h4>
               </div>
-              <div className="col-lg-6 bg-white py-5 px-5 rounded c-box">
+              <div  style={{padding:"40px 0px "}}  className="col-lg-6 bg-white px-5 rounded c-box">
                 <div className="contact-form">
                   <form action="#!">
                     <div className="form-group mb-4 pb-2">

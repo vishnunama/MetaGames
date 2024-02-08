@@ -7,16 +7,16 @@ function AboutNews() {
      <div>
  
   {/* testimonials */}
-  <section className="py-5 testimonials position-relative ">
+  <section  style={{paddingBottom:"40px "}}  className=" testimonials position-relative ">
     {/* <img class="bg-img" src="./assets/img/bg2.jpg" alt="">
   <div class="bg-filter "></div> */}
-    <div className="w-100 d-flex align-items-center justify-content-center flex-column pb-5">
-      <h1 className="display-6  pb-3 text-center pt-5 glow-text lh-1 mb-3 text-white fw-bold section-title g-text">
+    <div className="w-100 d-flex align-items-center justify-content-center flex-column">
+      <h1 className="display-6   text-center pt-5 glow-text lh-1 mb-3 text-white fw-bold section-title g-text">
         What Clients Say About Us
       </h1>
       {/* <p className="text-center text-dark">We hold the superiority and trust in the IT Services</p> */}
     </div>
-    <div className="swiper mySwiper mx-5 py-5">
+    <div className="swiper mySwiper mx-5 ">
       <div className="swiper-wrapper">
         <div style={{margin:"50px 0px"}} className="swiper-slide d-flex align-items-center justify-content-center">
           <div className="item test-item bg-white p-3 py-4 rounded-10 d-flex align-items-center justify-content-center w-75 flex-column">
